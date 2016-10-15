@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Agenda</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_activity__horarios_add">Activity_Horarios_add</string>
+    <string name="add_horario">+</string>
+    <string name="title_activity_main_activity_forum">MainActivity_forum</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- TELA INICIAL BARRA LATERAL -->
+    <string name="Horarios">Horarios</string>
+    <string name="Disc">Disciplinas</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_diciplinas">Diciplinas</string>
+    <string name="title_activity_nova__diciplina">Nova_Diciplina</string>
+
+    <string name="Inf_dados">INFORME OS DADOS NECESSÁRIOS</string>
+    <string name="Dados_obg">DADOS OBRIGATORIOS</string>
+    <!-- DICIPLINAS -->
+    <string name="Disc_Nome"> * Nome da Diciplina </string>
+    <string name="Disc_Abrev"> * Abreviação. Ex.: MAT </string>
+    <string name="Disc_Prof"> * Professor </string>
+    <string name="title_activity_activity__notas">Activity_Notas</string>
+    <string name="title_activity_activity__notas_add">Activity_Notas_add</string>
+    <string name="title_activity_main_activity__disciplinas">MainActivity_Disciplinas</string>
+    <string name="title_activity_activity__disciplias_add">Activity_Disciplias_add</string>
+
+
+</resources>

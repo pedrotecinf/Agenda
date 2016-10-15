@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single">
+        <item android:title="Categorias">
+        <menu>
+        <item
+            android:id="@+id/nav_Horarios"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/Horarios"
+            />
+        <item
+            android:id="@+id/nav_Disciplias"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/Disc" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_Notas"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Notas" />
+        </menu>
+        </item>
+    </group>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+            <item
+                android:title="Site Academico"
+                android:id="@+id/nav_SiteAcademico"/>
+        </menu>
+    </item>
+
+</menu>

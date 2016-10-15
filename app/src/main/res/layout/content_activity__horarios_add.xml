@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Horarios.Activity_Horarios_add"
+    tools:showIn="@layout/activity_activity__horarios_add"
+    android:orientation="vertical"
+    >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp">
+            <TextView
+                android:text="@string/Inf_dados"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:paddingTop="10dp"
+                android:text="@string/Dados_obg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                />
+
+
+            <EditText
+                android:id="@+id/Et_Disc_nome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Disc_Nome"
+                />
+
+            <EditText
+                android:id="@+id/Et_Disc_abrev"
+                android:hint="@string/Disc_Abrev"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+            <EditText
+                android:id="@+id/Et_Disc_prof"
+                android:hint="@string/Disc_Prof"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/Frame_DadosOpcionais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+           >
+
+            <EditText
+                android:id="@+id/Et_Informacoes"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="*informe a Sala"
+                android:layout_gravity="center_horizontal|top" />
+
+
+
+
+        </LinearLayout>
+
+</LinearLayout>
